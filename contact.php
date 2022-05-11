@@ -7,6 +7,7 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/portal.css" />
   <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/forms.css" />
  </head>
  <body>
      <header>
@@ -26,18 +27,25 @@
      </header>
      
    <div class="wrapper">
-     
-     <img class="desktop" src="images/desktop.jpg" alt="Photo of woman in front of building" />
-       
-     <img class="tablet" src="images/tablet.jpg" alt="Photo of two dogs on beach" />
-       
-     <img class="phone" src="images/phone.jpg" alt="Photo of woman drinking tea" />
-       
-       <h2 class="subheader">A little about me!</h2>
-       
-       <p>Hello! I am finishing up my last two quarters at Seattle Central College and I'm excited to graduate this summer with a certificate in Database Administration. Looking forward to getting some certifications and updating my resume to get a position in the tech industry.</p>
-       <p>In my free time I like to go bird watching. I also love watercolor painting -terrible at it, but love it.</p>
+     <h2 class ="subheader">Contact Christine</h2>
+     <?php
+        /*
+         * Below are 2 different forms to be re-used       
+         * 
+         * Only use one at a time, comment out the other!       
+         *
+         */
 
+        include 'includes/contact_include.php'; #site keys & code here
+    
+        $toAddress = "clpestanaa@gmail.com";  //place your/your client's email address here
+        $toName = "Mark Anderson"; //place your client's name here
+        $website = "Anderson Plastering and Stucco";  //place NAME of your client's website
+
+        //echo loadContact('simple.php');#demonstrates a simple contact form
+        echo loadContact('multiple.php');#demonstrates multiple form elements
+
+	?>
        
      <footer>
       <p><small>&copy; 2022 by 
