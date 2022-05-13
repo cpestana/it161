@@ -42,8 +42,8 @@
         $toName = "Mark Anderson"; //place your client's name here
         $website = "Anderson Plastering and Stucco";  //place NAME of your client's website
 
-        //echo loadContact('simple.php');#demonstrates a simple contact form
-        echo loadContact('multiple.php');#demonstrates multiple form elements
+        echo loadContact('simple.php');#demonstrates a simple contact form
+        //echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>
        
