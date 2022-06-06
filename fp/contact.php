@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-  <title>Christine Pestana's IT161 Portal Website</title>
+  <title>Contact Mark Pestana Plaster and Stucco</title>
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/portal.css" />
   <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/forms.css" />
  </head>
  <body>
      <header>
-     <h1>Christine's IT161 Website</h1>
+     <h1>Mark Pestana Plaster and Stucco</h1>
      <nav class="topnav" id="myTopnav">
        <a href="index.html" class="active">Welcome</a>
        <a href="elements.html">HTML Elements</a>
@@ -18,7 +19,7 @@
        <a href="big/index.html">BIG</a>
        <a href="http://w3schools.com" target="_blank">W3 Schools</a>
        <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a>
-       <a href="https://docs.google.com/document/d/1A8LqLZyEuXh3kMnU7wK9l2jfKFjd66sVQCzm5XhOpmg/edit?usp=sharing">Flowchart</a>
+       <a href="flowchart.html">Flowchart</a>
        <a href="fp/index.html">Final Project</a>
        <a href="contact.php">Contact Christine</a>
        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -26,18 +27,25 @@
      </header>
      
    <div class="wrapper">
-     
-     <img class="desktop" src="images/desktop.jpg" alt="Photo of woman in front of building" />
-       
-     <img class="tablet" src="images/tablet.jpg" alt="Photo of two dogs on beach" />
-       
-     <img class="phone" src="images/phone.jpg" alt="Photo of woman drinking tea" />
-       
-       <h2 class="subheader">A little about me!</h2>
-       
-       <p>Hello! I am finishing up my last two quarters at Seattle Central College and I'm excited to graduate this summer with a certificate in Database Administration. Looking forward to getting some certifications and updating my resume to get a position in the tech industry.</p>
-       <p>In my free time I like to go bird watching. I also love watercolor painting -terrible at it, but love it.</p>
+     <h2 class ="subheader">Contact Mark Pestana</h2>
+     <?php
+        /*
+         * Below are 2 different forms to be re-used       
+         * 
+         * Only use one at a time, comment out the other!       
+         *
+         */
 
+        include 'includes/contact_include.php'; #site keys & code here
+    
+        $toAddress = "clpestanaa@gmail.com";  //place your/your client's email address here
+        $toName = "Mark Anderson"; //place your client's name here
+        $website = "Anderson Plastering and Stucco";  //place NAME of your client's website
+
+        echo loadContact('simple.php');#demonstrates a simple contact form
+        //echo loadContact('multiple.php');#demonstrates multiple form elements
+
+	?>
        
      <footer>
       <p><small>&copy; 2022 by 
