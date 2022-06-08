@@ -16,7 +16,7 @@
        <a href="index.html" class="active">Welcome</a>
        <a href="elements.html">HTML Elements</a>
        <a href="aia.html">AIA</a>
-       <a href="big/index.html">BIG</a>
+       <a href="fp/template.html">Template</a>
        <a href="http://w3schools.com" target="_blank">W3 Schools</a>
        <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a>
        <a href="flowchart.html">Flowchart</a>
@@ -27,7 +27,7 @@
      </header>
      
    <div class="wrapper">
-     <h2 class ="subheader">Contact Christine</h2>
+     <h2 class ="subheadercontact">Contact Christine</h2>
      <?php
         /*
          * Below are 2 different forms to be re-used       

@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #acc1ea;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;;
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -14,20 +14,39 @@ html {
     background: #ff0;
 }
 
-h1 {
+h1 { 
     font-weight: normal;
     margin: auto;
     background: white;
     line-height: 2.5em;
+  
 }
 
 div.wrapper {
     background-color: white;
     overflow: auto;
+    
+}
+
+h3.contact {
+    text-align: left;
+    margin-left: 2%;
+}
+
+h2.contactsubheader { 
+    text-align: left;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+img.logo {
+    width: 20%;  
 }
 
 p {
+    
     margin: 1em 1em;
+    
 }
 
 
@@ -35,34 +54,26 @@ h2, h3 {
     font-weight: normal;
     margin-left: 1em;
     line-height: 1em;
+    text-align: center;
 }
 
 a {
-    color:darkcyan;
+    color:#3862c5;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #c9981e;
     text-decoration: none;
 }
-
-/*
-iframe {
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 5700px;
-    border: 2px solid darkcyan;
-}
-*/
 
 footer {
     clear: both;
     text-align: center;
     padding: 1em;
 }
+
 
 /* Responsive rules */
 
@@ -79,17 +90,21 @@ footer {
     }
     
     img.desktop {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 50%;
-        float: left;
-        margin-right: 1em;
-    }
+      }
+    
     
     img.tablet, img.phone {
         display: none;
     }
     
     p {
-        margin: 1em;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: justify;
     }
 }
 
@@ -106,13 +121,22 @@ footer {
     }
     
     img.tablet {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 50%;
-        float: right;
-        margin-left: 1em;
+      
     }
     
     img.desktop, img.phone {
         display: none;
+    }
+
+    p {
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: justify;
+        
     }
 }
 
@@ -135,4 +159,5 @@ footer {
         display: none;
     }
 }
+
 

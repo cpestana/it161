@@ -28,6 +28,11 @@
 			Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" />
 		</label>
 	</div>
+	<div>	
+		<label>
+			Phone:<br /><input type="phone" name="Phone" required="required" placeholder="Phone Number (required)" title="A valid phone number is required" tabindex="20" size="44" />
+		</label>
+	</div>
 	<!-- below change the HTML to your form elements - only 'Name' & 'Email' (above) are significant -->
 	<div>	
 		<label>
