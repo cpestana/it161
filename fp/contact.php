@@ -11,7 +11,7 @@
  </head>
  <body>
      <header>
-     <h1>Mark Anderson Plaster and Stucco</h1>
+     <h1><img class="logo" src="images/marklogo.jpeg" alt="house logo" /></h1>
      <nav class="topnav" id="myTopnav">
        <a href="index.html" class="active">Welcome</a>
        <a href="about.html">About</a>
@@ -53,6 +53,7 @@
      <footer>
       <p><small>&copy; 2022 by 
           <a href="contact.php">Christine Pestana</a>, All Rights Reserved ~ 
+          <a href="disclaimer.html">Privacy</a> ~
           <a id="html-checker" href="#">Check HTML</a> ~ 
           <a id="css-checker" href="#">Check CSS</a></small>
      </p>

@@ -74,6 +74,12 @@ footer {
     padding: 1em;
 }
 
+img.logo{
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 25%;
+}
+
 
 /* Responsive rules */
 
