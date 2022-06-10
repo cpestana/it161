@@ -11,7 +11,7 @@
  </head>
  <body>
      <header>
-     <h1><img class="logo" src="images/marklogo.jpeg" alt="house logo" /></h1>
+     <h1><a href="index.html"><img class="logo" src="images/marklogo.jpeg" alt="house logo" /></a></h1>
      <nav class="topnav" id="myTopnav">
        <a href="index.html" class="active">Welcome</a>
        <a href="about.html">About</a>
